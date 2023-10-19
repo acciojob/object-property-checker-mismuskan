@@ -4,7 +4,7 @@ function hasKey(key) {
   //   write your code here
 	for(let i in colors)
 		{
-			if (i==key){
+			if (i===key){
 				return true;
 			}
 	}
